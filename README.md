@@ -1,18 +1,19 @@
-paso 1
-# API de Autenticación - Guía Paso a Paso
+Sigue los siguientes pasos
+ API de Autenticación - Guía Paso a Paso
 
-## 📋 PRERREQUISITOS
+  PRERREQUISITOS
 - Tener Python 3.10+ instalado
 - Tener pip (gestor de paquetes de Python)
 
-## 🚀 INSTALACIÓN Y EJECUCIÓN - PASO A PASO
+ INSTALACIÓN Y EJECUCIÓN - PASO A PASO
 
-### PASO 1: Instalar dependencias
-```bash
+ Paso 1, todo este paso dentro del bash
+ 
 pip install -r requirements.txt
 
 paso 2
 python -m uvicorn main:app --reload
+
 paso 3
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 paso 4
