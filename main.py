@@ -1,3 +1,9 @@
+# primero esto pip install fastapi
+# luego esto python -m uvicorn main:app --reload
+# INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+# al momento de ingresar la dirrecion colocar /docs
+#Usar modelos de SQL mode
+
 from fastapi import FastAPI, HTTPException
 from sqlmodel import SQLModel
 
